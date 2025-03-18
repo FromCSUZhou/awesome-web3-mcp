@@ -2,11 +2,13 @@
   "mcpServers": {
     "base-mcp": {
       "command": "node",
-      "args": ["/workspace/base-mcp/build/index.js"],
+      "args": ["/path/to/base-mcp/build/index.js"],
       "env": {
-        "COINBASE_API_KEY_NAME": "a9e4ca5f-bf15-4ffa-b154-169dfbf7a3a1",
-        "COINBASE_API_PRIVATE_KEY": "vvvVqBKqYLioZPQbcqcXuicgahn7TCIheUfwbOTka3VMmjCJbNNP89ojlttM/c7P7fFi38ysnVUVO/GDiRsPiA==",
-        "SEED_PHRASE": "mosquito off again message panther style sand adapt toe faith bless drive"
+        "COINBASE_API_KEY_NAME": "your_api_key_name",
+        "COINBASE_API_PRIVATE_KEY": "your_private_key",
+        "SEED_PHRASE": "your seed phrase here",
+        "COINBASE_PROJECT_ID": "your_project_id",
+        "OPENROUTER_API_KEY": "your_openrouter_api_key"
       },
       "disabled": false,
       "autoApprove": []
